@@ -1,6 +1,6 @@
 <?php
 
-namespace btrsco\WhoisParser;
+namespace xandco\WhoisParser;
 
 class WhoisParser
 {

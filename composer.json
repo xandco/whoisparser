@@ -1,15 +1,15 @@
 {
-    "name": "btrsco/whoisparser",
+    "name": "xandco/whoisparser",
     "description": "Whois Parser, parses and formats raw whois query data.",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Miguel Batres Santellano",
-            "email": "miguel@xand.co",
-            "homepage": "https://xand.co"
+            "email": "miguel@batres.co",
+            "homepage": "https://batres.co"
         }
     ],
-    "homepage": "https://github.com/btrsco/whoisparser",
+    "homepage": "https://github.com/xandco/whoisparser",
     "keywords": ["Laravel", "WhoisParser"],
     "require": {
         "illuminate/support": "~5|~6|~7"
@@ -22,21 +22,21 @@
     },
     "autoload": {
         "psr-4": {
-            "btrsco\\WhoisParser\\": "src/"
+            "xandco\\WhoisParser\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "btrsco\\WhoisParser\\Tests\\": "tests"
+            "xandco\\WhoisParser\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "btrsco\\WhoisParser\\WhoisParserServiceProvider"
+                "xandco\\WhoisParser\\WhoisParserServiceProvider"
             ],
             "aliases": {
-                "WhoisParser": "btrsco\\WhoisParser\\Facades\\WhoisParser"
+                "WhoisParser": "xandco\\WhoisParser\\Facades\\WhoisParser"
             }
         }
     }

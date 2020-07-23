@@ -2,7 +2,9 @@
 
 All notable changes to `WhoisParser` will be documented in this file.
 
-## Version 1.0
+## Version 0.1.0
 
-### Added
-- Everything
+Released: `07/09/2020`
+
+- Transfer Repository to X&Co
+- Change Namespace to `xandco`

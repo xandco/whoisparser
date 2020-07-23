@@ -1,6 +1,6 @@
 <?php
 
-namespace btrsco\WhoisParser\Facades;
+namespace xandco\WhoisParser\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
