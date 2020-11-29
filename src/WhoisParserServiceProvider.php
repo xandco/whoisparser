@@ -1,6 +1,6 @@
 <?php
 
-namespace btrsco\WhoisParser;
+namespace WhoisParser;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,7 +31,7 @@ class WhoisParserServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/whoisparser.php', 'whoisparser');
+        $this->mergeConfigFrom(__DIR__ . '/../config/whoisparser.php', 'whoisparser');
 
         // Register the service the package provides.
         $this->app->singleton('whoisparser', function ($app) {
@@ -48,7 +48,7 @@ class WhoisParserServiceProvider extends ServiceProvider
     {
         return ['whoisparser'];
     }
-    
+
     /**
      * Console-specific booting.
      *
@@ -58,7 +58,7 @@ class WhoisParserServiceProvider extends ServiceProvider
     {
         // Publishing the configuration file.
         $this->publishes([
-            __DIR__.'/../config/whoisparser.php' => config_path('whoisparser.php'),
+            __DIR__ . '/../config/whoisparser.php' => config_path('whoisparser.php'),
         ], 'whoisparser.config');
 
         // Publishing the views.
