@@ -1,6 +1,6 @@
 <?php
 
-namespace xandco\WhoisParser;
+namespace WhoisParser;
 
 use Illuminate\Support\ServiceProvider;
 

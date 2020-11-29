@@ -22,21 +22,21 @@
     },
     "autoload": {
         "psr-4": {
-            "xandco\\WhoisParser\\": "src/"
+            "WhoisParser\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "xandco\\WhoisParser\\Tests\\": "tests"
+            "WhoisParser\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "xandco\\WhoisParser\\WhoisParserServiceProvider"
+                "WhoisParser\\WhoisParserServiceProvider"
             ],
             "aliases": {
-                "WhoisParser": "xandco\\WhoisParser\\Facades\\WhoisParser"
+                "WhoisParser": "WhoisParser\\Facades\\WhoisParser"
             }
         }
     }
